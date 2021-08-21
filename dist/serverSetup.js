@@ -9,7 +9,7 @@ var cors_1 = __importDefault(require("cors"));
 var dotenv_1 = __importDefault(require("dotenv"));
 var serverSetup = /** @class */ (function () {
     function serverSetup(port) {
-        if (port === void 0) { port = 3001; }
+        if (port === void 0) { port = 3000; }
         this.port = port;
         this.app = express_1.default();
     }
